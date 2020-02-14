@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type = 'text/css' href= "{% static 'css/bootstrap.css' %}" >
+    <link rel="stylesheet" type = 'text/css' href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type = 'text/css' href="{% static 'css/all.css' %}">
+    <link rel="stylesheet"  href= "{% static 'css/style.css' %}" >
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+    <title>{% block title %}PIK group{% endblock title %}</title>
+
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4\
+     mb-3 bg-white border-bottom shadow-sm">
+      <a href="/stats/" class="navbar-brand my-0 mr-md-auto font-weight-normal">PIK group</a>
+      <nav class="my-2 my-md-0 mr-md-3">
+      </nav>
+    </div>
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        {% block content %}
+        {% endblock content %}
+    </div>
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>

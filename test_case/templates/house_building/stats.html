@@ -1,0 +1,38 @@
+{% extends '_base.html' %}
+{% load static %}
+
+
+{% block content%}
+  <h1 class="text-center py-3"> All Stats </h1>
+
+  <div class="row text-center pb-3 ">
+    <div class="col-1">Adress</div>
+    <div class="col-1">All bricks</div>
+    <div class="col-3 text-left">Tasks by date</div>
+
+  </div>
+
+  {% for document in object_list  %}
+  <div class="row text-center mb-3 ">
+      <div class="col-1">{{document}}</div>
+      <div class="col-1">{{document.get_all_bricks_in_house}}</div>
+      {% if document.get_all_dates %}
+          <div class="col-3">
+              <table  border="1">
+                  <tr>
+                    <th>Date</th><th>Bricks</th>
+                  </tr>
+                   {% for date, bricks in document.get_all_dates.items %}
+                        <tr>
+                            <th>{{date}}</th><td>{{bricks}}</td>
+                        </tr>
+                   {% endfor %}
+              </table>
+          </div>
+      {% else %}
+        No tasks for this adress
+      {% endif %}
+  </div>
+
+{% endfor %}
+{% endblock content %}
