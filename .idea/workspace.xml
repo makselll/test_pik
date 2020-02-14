@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c32106-216e-4c0c-8470-d79640486c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_case/apps/house_building/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/apps/house_building/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/apps/house_building/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/apps/house_building/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/apps/house_building/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/apps/house_building/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/apps/house_building/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/apps/house_building/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/apps/house_building/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/templates/house_building/stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/templates/house_building/stats.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,44 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for house_building.tests.HouseTestCase.test_all_bricks_for_house">
+    <configuration name="pytest for house_building.tests.HouseTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="venv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/apps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;house_building.tests.HouseTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for house_building.tests.HouseTestCase.test_all_bricks_for_house" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="venv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/apps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;house_building.tests.HouseTestCase.test_all_bricks_for_house&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for house_building.tests.HouseTestCase.test_all_bricks_for_house" />
+        <item itemvalue="Python tests.pytest for house_building.tests.HouseTestCase" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />

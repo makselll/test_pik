@@ -6,7 +6,7 @@ import datetime
 
 class AddNewHouse(CreateView):
     model = House
-    fields = ['adress', 'year']
+    fields = ['address', 'year']
     template_name = 'house_building/new_house.html'
     success_url = '/stats/'
 
